@@ -1,0 +1,269 @@
+.header{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 65px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.nav-div{
+    border-top: 3px solid yellow;
+    background-color: black;
+    width: 100%;
+    height: 62px;
+    margin-top: 5px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;
+
+    float: left;
+}
+.poco-img{
+    /* display: block; */
+    margin-left: 50px;
+margin-right: 50px;
+float: left;
+width: 106px;
+height: 60px;
+
+}
+.external{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-gb{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+margin: 0 20px 0 21px;
+font-size: 15px;
+text-transform: uppercase;
+
+}
+
+.linknav{
+    margin-right: 40px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+.internal{
+position: absolute;
+    /* float: right; */
+    margin-right:100px ;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}
+.internal a{
+    font-size: 15px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+.parent-div{
+position: relative;
+z-index: -1;
+
+}
+.parent-nav {
+    z-index: 2;
+    position: absolute;
+    margin-top: 40px;
+    padding-left: 150px;
+    margin-left: 80px;
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+}
+.parentnav{
+    margin-right: 40px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.parentnav:hover{
+    background-color: yellow;
+    color: yellow;
+}
+.img-class{
+    position: relative;
+    width: 100%;
+height: 600px;
+
+}
+.card{
+    background-color: black;
+    height: auto;
+display: flex;
+flex-direction: row;
+
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.phn-card{
+    margin-right: 15px;
+
+
+}
+.vdo-card{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: -20px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+}
+.titleline{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+.vdo-cards{
+    margin-right: 15px;
+
+
+}
+.vdo-div{
+     height: auto;
+display: flex;
+flex-direction: row;
+margin-left: 100px;
+
+}
+.vdo-img{
+   height: 263px; 
+}
+.customer-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+    background-color: #161718;
+}
+.intro{
+    color: white;
+    padding-top: 50px;
+    margin-left: 100px;
+    line-height: 0;
+}
+.footer-para{
+    color: #888;
+    font-size: 11px;
+}
+.footer-intro-h3{
+    color: #fff;
+font-size: 20px;
+font-weight: 500;
+}
+.customer-reaction{
+    padding-left: 40px;
+    /* background-color: blanchedalmond; */
+    color: #fff;
+font-size: 20px;
+}
+.customer-email{
+    margin-top: 50px;
+    /* float: left; */
+    /* position: relative; */
+
+background: 0 0;
+/* background-color: antiquewhite; */
+border: 1px solid #888;
+color: #888;
+}
+#input{
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+}
+.footer-intro-h4{
+    margin-left: 60px;
+    margin-top: 50px;
+margin-right: 70px;
+text-align: center;
+    color: #fff;
+    font-size: 20px;font-weight: 500;
+}
+.outro{
+    text-align: center;
+    color: white;
+    /* background-color: cyan; */
+    padding-top: 10px;
+    margin-right: 90px;
+    line-height: 0;
+
+}
+.socialmedia{
+    margin-top: 50px;
+text-align: center;
+    /* background-color: aliceblue; */
+    margin-right: 100px;
+    padding-right: 100px;
+}
+.socialmedia img{
+    padding-right: 30px;
+    background-color: transparent;
+}
+.end-footer{
+
+color: white;
+display: flex;
+justify-content: start;
+
+
+
+    flex-direction: row;
+
+}
+.container{
+    
+margin-top: 50px;
+    /* flex: 1px; */
+    /* display: flex;
+
+    flex-direction: row;  */
+    margin-left: 100px;
+
+}
+.main-1{
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 19px;
+    font-weight: 600;
+}
+.sub{
+    color: #888;
+    font-size: 13px;
+    line-height: 25px;
+}
+.the-end{
+    line-height: 70px;
+}
+.the-end-p{
+    float: left;
+    margin-left: 100px;
+color: #b0b0b0;
+font-size: 14px;
+}
+
